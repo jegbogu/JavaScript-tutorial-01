@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+ 
         // we use find call back function when we want to return the first element that meets the criteria. This is used for implementing search with use of IDs or email or unique registerations numbers
 
         const students = [
@@ -47,7 +38,4 @@ const user = students.find((el)=>{
 })
 
    
-
-    </script>
-</body>
-</html>
+ 

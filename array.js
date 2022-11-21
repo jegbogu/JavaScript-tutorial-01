@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-
-
-    <script>
-        // let cars = ['volvo','benz','ford','toyota']
+  // let cars = ['volvo','benz','ford','toyota']
         // console.log(cars)
         //Arrays are indexed: this means that the index of the first car is 0, the second one is 1, on and on like that
         //how to the get the index
@@ -76,7 +63,4 @@ console.log(todo)
 
 
 
-
-    </script>
-</body>
-</html>
+ 

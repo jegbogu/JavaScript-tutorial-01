@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    
-    <script>
-
-        // Map Creates a new array for the call back function
+ // Map Creates a new array for the call back function
         //note that all other call function uses return except forEach call bacl function.
         //
 
@@ -59,6 +46,4 @@ console.log(aStudents)
 
 
 
-    </script>
-</body>
-</html>
+  
