@@ -31,3 +31,5 @@ console.log(pText)
 // stores all elements with that tag to the array
 const p = document.querySelectorAll('p')
 console.log(p)
+
+
