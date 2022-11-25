@@ -49,7 +49,7 @@
 // }
 
 //classList 
-//In classList we have four methods
+//In classList we have five methods
 //classList.add, classList.remove,//classList.contain, classList.replace, classList.toggle
 //classList.add
 //classList.add can help us add class(es) to an element. Most especially , css Class
