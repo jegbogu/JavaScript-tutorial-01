@@ -34,19 +34,19 @@
 // })
 
 //character count project
-const count = document.querySelector('.count')
-const city = document.querySelector('#city');
+// const count = document.querySelector('.count')
+// const city = document.querySelector('#city');
 
-city.addEventListener('input',(e)=>{
+// city.addEventListener('input',(e)=>{
     
-    if(e.inputType === 'insertText'){
-        count.innerHTML++
+//     if(e.inputType === 'insertText'){
+//         count.innerHTML++
         
-    }else if(e.inputType === 'deleteContentBackward'){
-        count.innerHTML--
-    }else if(city.value==" "){
-        count.innerHTML = 0
-    }
-})
+//     }else if(e.inputType === 'deleteContentBackward'){
+//         count.innerHTML--
+//     }else if(city.value==" "){
+//         count.innerHTML = 0
+//     }
+// })
 
 

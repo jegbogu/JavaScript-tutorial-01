@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.theme{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.theme:hover{
+    background-color: grey;
+    padding: 1px;
+    border-radius: 2px;
+    transition: 300ms;
+}
+.dropDown{
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    border: solid white 2px;
+    box-shadow: gray 2px 2p 2px;
+    margin-top: 30px;
+    margin-left: -20px;
+    cursor: pointer;
+    
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.darkMode{
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+.lightMode{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.passShow{
+    cursor: pointer;
+    border: solid gray 2px;
+    border-radius: 5px;
+    padding: 3px;
+}
