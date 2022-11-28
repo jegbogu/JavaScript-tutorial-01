@@ -47,14 +47,23 @@ passShow.addEventListener('click',()=>{
 
 btn.addEventListener('click',(e)=>{
     e.preventDefault()
-     if(email.value.length < 4 ){
-        emailErr.innerHTML = 'Email lenght is too small'
-    }
-})
-btn.addEventListener('click',(e)=>{
-    e.preventDefault()
-     if(password.value.length < 8 ){
-        passErr.innerHTML = 'password lenght is too small'
-    }
+    emailData()
+    passwordData()
+   
 })
  
+ 
+function emailData(){
+    if(email.value.length == 0){
+        emailErr.innerHTML = 'Email can not be Empty'
+    }else if(email.value.length < 4 ){
+        emailErr.innerHTML = 'Email lenght is too small'
+    }
+}
+function passwordData(){
+    if(password.value.length == 0){
+        passErr.innerHTML = 'password can not be Empty'
+    }else if(password.value.length < 8 ){
+        passErr.innerHTML = 'password lenght is too small'
+    }
+}

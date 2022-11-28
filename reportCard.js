@@ -32,6 +32,7 @@ const students = [
 const sName = document.querySelector('#sName')
 const studentName = document.querySelector('.studentName')
 const studentEmail = document.querySelector('.studentEmail')
+const sNameErr = document.querySelector('.sNameErr')
 const btn =  document.querySelector('.btn')
 
 
@@ -41,7 +42,9 @@ e.preventDefault()
         return el.name === sName.value
     })
     
-    console.log(data)
+    if(data.length<1){
+        sNameErr.innerHTML= "User Not Found"
+     } 
 studentName.innerHTML = data[0].name
 studentEmail.innerHTML = data[0].email
 })
