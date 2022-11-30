@@ -56,13 +56,16 @@ btn.addEventListener('click',(e)=>{
 function emailData(){
     if(email.value.length == 0){
         emailErr.innerHTML = 'Email can not be Empty'
+        emailErr.style.color = 'red'
     }else if(email.value.length < 4 ){
         emailErr.innerHTML = 'Email lenght is too small'
+
     }
 }
 function passwordData(){
     if(password.value.length == 0){
         passErr.innerHTML = 'password can not be Empty'
+        passErr.style.color = 'red'
     }else if(password.value.length < 8 ){
         passErr.innerHTML = 'password lenght is too small'
     }

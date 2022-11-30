@@ -32,10 +32,10 @@ const students = ['Mary', 'Rosa', 'Hanbs']
 
  
 
-const newC =students.map((name)=>{
-    return(name.toUpperCase())
-})
-console.log(newC)
+// const newC =students.map((name)=>{
+//     return(name.toUpperCase())
+// })
+// console.log(newC)
 
 // const farmers = [
 //     {
@@ -61,7 +61,21 @@ console.log(newC)
 
 
 
-          
+const scores=[
+    {
+        Mathematics: 70
+    },
+    {
+        English: 60
+    },
+    {
+        Biology: 80
+    },
+    {
+        Chemistry: 60
+    },
+]
+console.log(scores[0].Mathematics)
         
 
 
